@@ -1,5 +1,5 @@
 public class FlyNoWay implements FlyBehaviour {
-	override fun fly() {
+	public void fly() {
 		System.out.println("I cannot fly.");
 	}
 }

@@ -1,5 +1,5 @@
 public class MuteQuack implements QuackBehaviour {
-	override fun quack() {
+	public void quack() {
 		System.out.println("<< Silence >>");
 	}
 }

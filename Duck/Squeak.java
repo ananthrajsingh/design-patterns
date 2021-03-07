@@ -1,5 +1,5 @@
 public class Squeak implements QuackBehaviour {
-	override fun quack() {
+	public void quack() {
 		System.out.println("Squeak!");
 	}
 }

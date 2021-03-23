@@ -13,6 +13,14 @@ public abstract class Duck {
 
 	public abstract void display();
 
+	public void setFlyBehaviour(FlyBehaviour behaviour) {
+		flyBehaviour = behaviour;
+	}
+
+	public void setQuackBehaviour(QuackBehaviour behaviour) {
+		quackBehaviour = behaviour;
+	}
+
 	public void swim() {
 		System.out.println("All ducks are floating ducks, I am floating...");
 	}
